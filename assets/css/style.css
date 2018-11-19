@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    background-image: url("../images/background.png");
+    color: #bababa;
+    text-align: center;
+}
+
+.header {
+    position: relative;
+    width: 300px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.warning {
+    float: left;
+    border: 5px black dashed;
+    background-color: yellow;
+    transform: rotate(-20deg);
+    margin-top: 20px;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    color: #ff0000;
+    font-size: 20px;
+}
+
+h1 {
+    position: absolute;
+    color: #7bce33;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    text-shadow: -3px 1px black;
+    left: 75px;
+}
+
+.container {
+    width: 960px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    top: 25px;
+}
+
+.pictureColumn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 480px;
+    height: 700px;
+    border: dashed 2px #cccccc;
+}
+
+img {
+    position: absolute;
+    width: 450px;
+    height: auto;
+    top: 10px;
+    left: 12px;
+}
+
+.gameColumn {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 480px;
+    height: 700px;
+    border: dashed 2px #cccccc;
+}
